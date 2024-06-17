@@ -21,6 +21,14 @@
       text-align: center;
     }
 
+    footer{
+      width: auto;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
     .container{
       max-width: 800px;
       margin: 0 auto;
@@ -51,6 +59,7 @@
 <body>
   <header>Welcome to OrionOS API 🚀</header>
   <div class="container">
+    <h3>fetch("https://orion-apiv1.vercel.app")</h3>
     <p>Bellow is parameters supported in this API</p>
     <ul>
       <li>
@@ -62,6 +71,10 @@
         to get devices by id
       </li>
       <li>
+        <a href="/device/rock">/device/:slug</a>
+        to get devices by slug
+      </li>
+      <li>
         <a href="/developer">/developer</a>
         to get all developer
       </li>
@@ -71,5 +84,6 @@
       </li>
     </ul>
   </div>
+  <footer>Created by Romi Yusnandar</footer>
 </body>
 </html>

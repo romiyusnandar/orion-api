@@ -69,15 +69,23 @@ router.get("/device", (req, res) => {
   res.send(deviceData)
 });
 
-// get singgle data
-router.get("/device/:id", (req, res) => {
-  const deviceId = parseInt(req.params.id)
-  const singgleDevice = deviceData.find((item) => item._id === deviceId)
+// get singgle data by id or slug
+router.get("/device/:param", (req, res) => {
+  const param = req.params.param;
+  let device;
 
-  if (!deviceId) {
-    return res.status(404).json({msg: "Developer not found"})
+  if (isNaN(param)) {
+    device = deviceData.find((item) => item.slug === param);
+  } else {
+    const deviceId = parseInt(param);
+    device = deviceData.find((item) => item._id === deviceId);
   }
-  res.json(singgleDevice)
+
+  if (!device) {
+    return res.status(404).json({msg: "Device not found"});
+  }
+
+  res.json(device);
 });
 
 

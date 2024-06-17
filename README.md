@@ -21,7 +21,7 @@ npm start
 
 | Endpoint  | Params | Description                                                 |
 | --------- | ------ | ----------------------------------------------------------- |
-| /{device} |        | To get all device data                                      |
+| /device   |        | To get all device data                                      |
 
 ### Example request
 
