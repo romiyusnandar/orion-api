@@ -5,7 +5,7 @@ const developerData = [
   {
     _id: 101,
     image: "https://i.ibb.co.com/Zgm3k32/Hirokixd.jpg",
-    name: "Hiroki",
+    name: "Hirokixd",
     role: "Founder",
     device_name: ["Redmi Note 8/8T"],
     device_codename: ["Ginkgo/Willow"],
