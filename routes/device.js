@@ -5,7 +5,7 @@ const deviceData = [
   {
     _id: 105,
     slug: "tissot",
-    device_image: "https://wiki.lineageos.org/images/devices/tissot.png",
+    device_image: "https://i.ibb.co.com/Yd7f6HV/tissot.jpg",
     device_name: "Mi A1",
     device_codename: "Tissot",
     device_brand: "xiaomi",
