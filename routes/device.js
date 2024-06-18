@@ -108,5 +108,16 @@ router.get("/device/:param", (req, res) => {
   res.json(device);
 });
 
+// Get devices grouped by brand
+router.get("/device/brand/:brand", (req, res) => {
+  const brand = req.params.brand;
+  const devicesByBrand = deviceData.filter((device) => device.device_brand.toLowerCase() === brand.toLowerCase());
+
+  if (devicesByBrand.length === 0) {
+    return res.status(404).json({ msg: "No devices found for this brand" });
+  }
+
+  res.json(devicesByBrand);
+});
 
 module.exports = router;
