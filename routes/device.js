@@ -15,7 +15,7 @@ const deviceData = [
     official_status: "• Active Maintained",
     android_version: "14.0",
     download_link: "/",
-    release_frequncy: "Monthly",
+    release_frequency: "Monthly",
     require_custom_recovery: "Yes With Ofox Recomended"
   },
   {
@@ -31,7 +31,7 @@ const deviceData = [
     official_status: "• Active Maintained",
     android_version: "14.0",
     download_link: "/",
-    release_frequncy: "Monthly",
+    release_frequency: "Monthly",
     require_custom_recovery: "Yes With Ofox Recomended"
   },
   {
@@ -47,7 +47,7 @@ const deviceData = [
     official_status: "• Active Maintained",
     android_version: "14.0",
     download_link: "/",
-    release_frequncy: "Monthly",
+    release_frequency: "Monthly",
     require_custom_recovery: "Yes With Ofox Recomended"
   },
   {
@@ -63,7 +63,7 @@ const deviceData = [
     official_status: "• Active Maintained",
     android_version: "14.0",
     download_link: "/",
-    release_frequncy: "Monthly",
+    release_frequency: "Monthly",
     require_custom_recovery: "Yes With Ofox Recomended"
   },
   {
@@ -79,7 +79,7 @@ const deviceData = [
     official_status: "• Active Maintained",
     android_version: "14.0",
     download_link: "/",
-    release_frequncy: "Monthly",
+    release_frequency: "Monthly",
     require_custom_recovery: "Yes With Ofox Recomended"
   },
 ]
