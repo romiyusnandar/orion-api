@@ -17,10 +17,10 @@ const developerData = [
   {
     _id: 102,
     image: "https://i.ibb.co.com/k96p2fC/romi.jpg",
-    name: "Romiyusna",
+    name: "Romi Yusnandar",
     role: "Co-Founder",
     device_name: ["Redmi Note 10 Pro"],
-    device_codename: ["Sweet"],
+    device_codename: ["Tissot", "Sweet"],
     social: {
       github: "https://github.com/romiyusnandar",
       telegram: "https://t.me/romiyusna"
@@ -40,6 +40,18 @@ const developerData = [
   },
   {
     _id: 104,
+    image: "https://i.ibb.co.com/b39Y9mx/ivz.jpg",
+    name: "Iverzasterix",
+    role: "Core Dev | UI/UX Design",
+    device_name: ["-"],
+    device_codename: ["-"],
+    social: {
+      github: "https://github.com/asterixiverz",
+      telegram: "https://t.me/iverzasterix"
+    },
+  },
+  {
+    _id: 105,
     image: "https://i.ibb.co.com/pfYpkYC/Rey-afk.jpg",
     name: "Reyy ツ [ • AFK • ]",
     role: "Group Support",
