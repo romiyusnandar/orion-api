@@ -17,3 +17,5 @@ const changelog = [
 router.get("/changelog", (req, res) => {
   res.send(changelog)
 });
+
+module.exports = router;
