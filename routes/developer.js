@@ -43,8 +43,8 @@ const developerData = [
     image: "https://i.ibb.co.com/b39Y9mx/ivz.jpg",
     name: "Iverzasterix",
     role: "Core Dev | UI/UX Design",
-    device_name: ["-"],
-    device_codename: ["-"],
+    device_name: [""],
+    device_codename: [""],
     social: {
       github: "https://github.com/asterixiverz",
       telegram: "https://t.me/iverzasterix"
@@ -55,8 +55,8 @@ const developerData = [
     image: "https://i.ibb.co.com/pfYpkYC/Rey-afk.jpg",
     name: "Reyy ツ [ • AFK • ]",
     role: "Group Support",
-    device_name: ["-"],
-    device_codename: ["-"],
+    device_name: [""],
+    device_codename: [""],
     social: {
       github: "/teams",
       telegram: "https://t.me/rynothingspecial"
