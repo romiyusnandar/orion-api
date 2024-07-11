@@ -37,7 +37,7 @@ const deviceData = [
   {
     _id: 106,
     slug: "garnet",
-    device_image: "https://i.ibb.co.com/8gZgLRT/rmdn.jpg",
+    device_image: "https://i.ibb.co.com/F0gJVc6/garnet.png",
     device_name: "Poco X6/Redmi Note 13 Pro",
     device_codename: "Garnet",
     device_brand: "xiaomi",
