@@ -62,6 +62,18 @@ const developerData = [
       telegram: "https://t.me/rynothingspecial"
     },
   },
+  {
+    _id: 106,
+    image: "https://i.ibb.co.com/8gZgLRT/rmdn.jpg",
+    name: "rmdn.",
+    role: "Maintainer",
+    device_name: ["Poco X6/Redmi Note 13 Pro"],
+    device_codename: ["Garnet"],
+    social: {
+      github: "https://github.com/ramaadni",
+      telegram: "https://t.me/ramaadni"
+    },
+  },
 ]
 
 // get all data

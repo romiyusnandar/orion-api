@@ -16,7 +16,7 @@ const deviceData = [
     android_version: "14.0",
     download_link: "/",
     release_frequency: "Monthly",
-    require_custom_recovery: "Yes With Ofox Recomended"
+    require_custom_recovery: "Yes"
   },
   {
     _id: 101,
@@ -32,7 +32,23 @@ const deviceData = [
     android_version: "14.0",
     download_link: "/",
     release_frequency: "Monthly",
-    require_custom_recovery: "Yes With Ofox Recomended"
+    require_custom_recovery: "Yes"
+  },
+  {
+    _id: 106,
+    slug: "garnet",
+    device_image: "https://i.ibb.co.com/8gZgLRT/rmdn.jpg",
+    device_name: "Poco X6/Redmi Note 13 Pro",
+    device_codename: "Garnet",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/garnet.md",
+    maintainer_name: "rmdn.",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "/",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
   },
   {
     _id: 102,
@@ -48,7 +64,7 @@ const deviceData = [
     android_version: "14.0",
     download_link: "/",
     release_frequency: "Monthly",
-    require_custom_recovery: "Yes With Ofox Recomended"
+    require_custom_recovery: "Yes"
   },
   {
     _id: 103,
@@ -64,7 +80,7 @@ const deviceData = [
     android_version: "14.0",
     download_link: "/",
     release_frequency: "Monthly",
-    require_custom_recovery: "Yes With Ofox Recomended"
+    require_custom_recovery: "Yes"
   },
   {
     _id: 104,
@@ -80,7 +96,7 @@ const deviceData = [
     android_version: "14.0",
     download_link: "/",
     release_frequency: "Monthly",
-    require_custom_recovery: "Yes With Ofox Recomended"
+    require_custom_recovery: "Yes"
   },
 ]
 
