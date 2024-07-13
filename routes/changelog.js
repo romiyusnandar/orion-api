@@ -3,6 +3,30 @@ const router = express.Router();
 
 const changelog = [
   {
+    _id: 103,
+    date: "July 2024 Pt.2",
+    changes: [
+      "Redesign Icon OrionSpace Dashboard",
+      "Redesign Homepage Settings Icons",
+      "Redesign about phone section",
+      "Add back depth wallpaper features",
+      "Redesign Seekbar",
+      "Import xdroid-OSS collapsing toolbar layout",
+      "Implement glass blur effect",
+      "Fix Udfps animation positioning logic",
+      "SystemUI: Improve per-app volume feature",
+      "SystemUI: Simplify volume percent checks",
+      "Change to Google wallpaper picker",
+      "Update Google wallpaper picker by default",
+      "Update google wallpaper picker app from husky-ap2a.240605.024",
+      "Properly configure wallpaper picker for vanilla and Gapps builds",
+      "Add Poppins font",
+      "Add Udfps Icon",
+      "Hide screen off udfps, if udfps animations/icons are not installed",
+      "Improved Performance"
+    ]
+  },
+  {
     _id: 102,
     date: "July 2024",
     changes: [
