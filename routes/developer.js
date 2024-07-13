@@ -32,7 +32,7 @@ const developerData = [
     name: "Onle",
     role: "Core Developer",
     device_name: ["Redmi Note 7", "Poco M5"],
-    device_codename: ["Lavender", "Rock"],
+    device_codename: ["Rock"],
     social: {
       github: "https://github.com/michionle",
       telegram: "https://t.me/michionlee"
