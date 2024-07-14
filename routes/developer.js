@@ -20,7 +20,7 @@ const developerData = [
     name: "Romi Yusnandar",
     role: "Co-Founder",
     device_name: ["Redmi Note 10 Pro"],
-    device_codename: ["Tissot", "Sweet"],
+    device_codename: ["Sweet"],
     social: {
       github: "https://github.com/romiyusnandar",
       telegram: "https://t.me/romiyusna"

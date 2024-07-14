@@ -2,22 +2,22 @@ const express = require('express');
 const router = express.Router();
 
 const deviceData = [
-  {
-    _id: 105,
-    slug: "tissot",
-    device_image: "https://i.ibb.co.com/Yd7f6HV/tissot.jpg",
-    device_name: "Mi A1",
-    device_codename: "Tissot",
-    device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
-    maintainer_name: "RomiYusnandar",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    android_version: "14.0",
-    download_link: "/",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
-  },
+  // {
+  //   _id: 105,
+  //   slug: "tissot",
+  //   device_image: "https://i.ibb.co.com/Yd7f6HV/tissot.jpg",
+  //   device_name: "Mi A1",
+  //   device_codename: "Tissot",
+  //   device_brand: "xiaomi",
+  //   device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
+  //   maintainer_name: "RomiYusnandar",
+  //   build_status: "Stable",
+  //   official_status: "• Active Maintained",
+  //   android_version: "14.0",
+  //   download_link: "/",
+  //   release_frequency: "Monthly",
+  //   require_custom_recovery: "Yes"
+  // },
   {
     _id: 101,
     slug: "rock",
@@ -30,7 +30,7 @@ const deviceData = [
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "/",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/rock",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -46,7 +46,7 @@ const deviceData = [
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "/",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/garnet",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -78,7 +78,7 @@ const deviceData = [
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/ginkgo/OrionOS-14.0-Cosmic-ginkgo-OFFICIAL-Vanilla-20240714.zip/download",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/ginkgo",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -94,7 +94,7 @@ const deviceData = [
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "/",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/sweet",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
