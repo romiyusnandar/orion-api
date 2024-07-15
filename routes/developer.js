@@ -53,7 +53,7 @@ const developerData = [
   {
     _id: 105,
     image: "https://i.ibb.co.com/pfYpkYC/Rey-afk.jpg",
-    name: "Reyy ツ [ • AFK • ]",
+    name: "Smokey ツ",
     role: "Group Support",
     device_name: [""],
     device_codename: [""],
@@ -72,6 +72,18 @@ const developerData = [
     social: {
       github: "https://github.com/ramaadni",
       telegram: "https://t.me/ramaadni"
+    },
+  },
+  {
+    _id: 107,
+    image: "https://i.ibb.co.com/tXyMMYk/photo-2024-07-15-18-53-49.jpg",
+    name: "Skyy丨アラタ",
+    role: "Maintainer",
+    device_name: ["Poco X3 NFC"],
+    device_codename: ["Surya"],
+    social: {
+      github: "https://github.com/HinohArata",
+      telegram: "https://t.me/HinohArata"
     },
   },
 ]

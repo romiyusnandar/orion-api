@@ -35,6 +35,22 @@ const deviceData = [
     require_custom_recovery: "Yes"
   },
   {
+    _id: 107,
+    slug: "surya",
+    device_image: "https://wiki.lineageos.org/images/devices/surya.png",
+    device_name: "Poco X3 NFC",
+    device_codename: "Surya",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/surya.md",
+    maintainer_name: "Skyy丨アラタ",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/surya",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
+  {
     _id: 106,
     slug: "garnet",
     device_image: "https://i.ibb.co.com/F0gJVc6/garnet.png",
