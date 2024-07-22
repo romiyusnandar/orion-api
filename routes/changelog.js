@@ -3,6 +3,19 @@ const router = express.Router();
 
 const changelog = [
   {
+    _id: 104,
+    date: "July 2024 Pt.3",
+    changes: [
+      "Drop Adaptive Sound Engine",
+      "Apply wakelock for notification sound",
+      "Optimize notification scaling/rendering",
+      "Never enable dual tone on landscape battery styles",
+      "Fix crash after dismissing a split screen pair",
+      "Integrate Google Lens into Screenshot UI",
+      "Correctly monet theme the new volume panel"
+    ]
+  },
+  {
     _id: 103,
     date: "July 2024 Pt.2",
     changes: [
@@ -15,7 +28,7 @@ const changelog = [
       "Implement glass blur effect",
       "Fix Udfps animation positioning logic",
       "SystemUI: Improve per-app volume feature",
-      "SystemUI: Simplify volume percent checks",,
+      "SystemUI: Simplify volume percent checks",
       "Add Poppins font",
       "Add Udfps Icon",
       "Hide screen off udfps, if udfps animations/icons are not installed",
