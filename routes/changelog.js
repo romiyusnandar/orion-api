@@ -12,7 +12,8 @@ const changelog = [
       "Never enable dual tone on landscape battery styles",
       "Fix crash after dismissing a split screen pair",
       "Integrate Google Lens into Screenshot UI",
-      "Correctly monet theme the new volume panel"
+      "Correctly monet theme the new volume panel",
+      "Fix Notification Sound After Reboot"
     ]
   },
   {
