@@ -43,8 +43,8 @@ const developerData = [
     image: "https://i.ibb.co.com/b39Y9mx/ivz.jpg",
     name: "Iverzasterix",
     role: "Core Dev | UI/UX Design",
-    device_name: [""],
-    device_codename: [""],
+    device_name: ["Redmi 10C/10 Power"],
+    device_codename: ["Fog/Wind/Rain"],
     social: {
       github: "https://github.com/asterixiverz",
       telegram: "https://t.me/iverzasterix"

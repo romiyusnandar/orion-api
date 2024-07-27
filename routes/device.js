@@ -83,6 +83,22 @@ const deviceData = [
   //   require_custom_recovery: "Yes"
   // },
   {
+    _id: 108,
+    slug: "fog",
+    device_image: "https://i.ibb.co.com/bHphyP8/redmi-10-c.jpg",
+    device_name: "Redmi 10C/10 Power",
+    device_codename: "Fog/Wind/Rain",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/fog.md",
+    maintainer_name: "Iverzasterix",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/fog",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
+  {
     _id: 103,
     slug: "ginkgo",
     device_image: "https://wiki.lineageos.org/images/devices/ginkgo.png",
