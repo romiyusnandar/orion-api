@@ -115,6 +115,22 @@ const deviceData = [
     require_custom_recovery: "Yes"
   },
   {
+    _id: 110,
+    slug: "ysl",
+    device_image: "https://i.ibb.co.com/10V5NjG/redmi-s2.jpg",
+    device_name: "Redmi S2",
+    device_codename: "Ysl",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/ysl.md",
+    maintainer_name: "AL",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/ysl",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
+  {
     _id: 103,
     slug: "ginkgo",
     device_image: "https://wiki.lineageos.org/images/devices/ginkgo.png",

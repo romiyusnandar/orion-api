@@ -98,6 +98,18 @@ const developerData = [
       telegram: "https://t.me/NextWorksGFX"
     },
   },
+  {
+    _id: 109,
+    image: "https://i.ibb.co.com/RCs70nx/AL.jpg",
+    name: "AL",
+    role: "Maintainer",
+    device_name: ["Redmi S2"],
+    device_codename: ["Ysl"],
+    social: {
+      github: "https://github.com/ALprjkt",
+      telegram: "https://t.me/animelopers"
+    },
+  },
 ]
 
 // get all data
