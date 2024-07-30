@@ -66,6 +66,22 @@ const deviceData = [
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
+  {
+    _id: 109,
+    slug: "mondrian",
+    device_image: "https://i.ibb.co.com/KN8qnPQ/Xiaomi-mondrian.png",
+    device_name: "Poco F5 Pro/Redmi K60",
+    device_codename: "Mondrian",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/mondrian.md",
+    maintainer_name: "NextWorks",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/mondrian",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
   // {
   //   _id: 102,
   //   slug: "lavender",

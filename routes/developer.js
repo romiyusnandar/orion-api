@@ -17,7 +17,7 @@ const developerData = [
   {
     _id: 102,
     image: "https://i.ibb.co.com/k96p2fC/romi.jpg",
-    name: "Romi Yusnandar",
+    name: "romi.yusna",
     role: "Co-Founder",
     device_name: ["Redmi Note 10 Pro"],
     device_codename: ["Sweet"],
@@ -84,6 +84,18 @@ const developerData = [
     social: {
       github: "https://github.com/HinohArata",
       telegram: "https://t.me/HinohArata"
+    },
+  },
+  {
+    _id: 108,
+    image: "https://i.ibb.co.com/9GJrbc1/nextworks.jpg",
+    name: "NextWorks",
+    role: "Maintainer",
+    device_name: ["Poco F5 Pro/Redmi K60"],
+    device_codename: ["Mondrian"],
+    social: {
+      github: "https://github.com/NextWork123",
+      telegram: "https://t.me/NextWorksGFX"
     },
   },
 ]
