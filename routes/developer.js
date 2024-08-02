@@ -110,6 +110,18 @@ const developerData = [
       telegram: "https://t.me/animelopers"
     },
   },
+  {
+    _id: 110,
+    image: "https://i.ibb.co.com/zFHVTrz/jp.jpg",
+    name: "ぞうしろかずわ",
+    role: "Maintainer",
+    device_name: ["Poco X3 Pro"],
+    device_codename: ["Vayu"],
+    social: {
+      github: "https://github.com/hirero-kazuwa",
+      telegram: "https://t.me/KazuwaZoshiro"
+    },
+  },
 ]
 
 // get all data

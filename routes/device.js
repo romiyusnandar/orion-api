@@ -51,6 +51,22 @@ const deviceData = [
     require_custom_recovery: "Yes"
   },
   {
+    _id: 111,
+    slug: "vayu",
+    device_image: "https://wiki.lineageos.org/images/devices/vayu.png",
+    device_name: "Poco X3 Pro",
+    device_codename: "Vayu",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vayu.md",
+    maintainer_name: "ぞうしろかずわ",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/vayu",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
+  {
     _id: 106,
     slug: "garnet",
     device_image: "https://i.ibb.co.com/3rtfGZb/garnettt.png",
