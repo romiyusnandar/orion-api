@@ -122,6 +122,30 @@ const developerData = [
       telegram: "https://t.me/KazuwaZoshiro"
     },
   },
+  {
+    _id: 111,
+    image: "https://i.ibb.co.com/WyRJTjP/abxxx.jpg",
+    name: "AgBKartikey",
+    role: "Maintainer",
+    device_name: ["Nothing Phone 2"],
+    device_codename: ["Pong"],
+    social: {
+      github: "https://github.com/AgBKartikey",
+      telegram: "https://t.me/AgBKartikey"
+    },
+  },
+  {
+    _id: 112,
+    image: "https://i.ibb.co.com/hcQ6XBK/omar.png",
+    name: "Omar",
+    role: "Maintainer",
+    device_name: ["Xiaomi 11T Pro"],
+    device_codename: ["Vili"],
+    social: {
+      github: "https://github.com/0mar99",
+      telegram: "https://t.me/Omar99A"
+    },
+  },
 ]
 
 // get all data

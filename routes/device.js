@@ -2,6 +2,23 @@ const express = require('express');
 const router = express.Router();
 
 const deviceData = [
+  // nothing
+  {
+    _id: 112,
+    slug: "pong",
+    device_image: "https://i.ibb.co.com/gb0MQ8F/nothing-2.jpg",
+    device_name: "Nothing Phone 2",
+    device_codename: "Pong",
+    device_brand: "nothing-phone",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/Pong.md",
+    maintainer_name: "AgBKartikey",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/Pong",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
   // {
   //   _id: 105,
   //   slug: "tissot",
@@ -18,6 +35,22 @@ const deviceData = [
   //   release_frequency: "Monthly",
   //   require_custom_recovery: "Yes"
   // },
+  {
+    _id: 113,
+    slug: "vili",
+    device_image: "https://i.ibb.co.com/q9gv4PZ/vili.jpg",
+    device_name: "Xiaomi 11T Pro",
+    device_codename: "Vili",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vili.md",
+    maintainer_name: "Omar",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/vili",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
   {
     _id: 101,
     slug: "rock",
