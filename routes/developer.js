@@ -146,6 +146,18 @@ const developerData = [
       telegram: "https://t.me/Omar99A"
     },
   },
+  {
+    _id: 113,
+    image: "https://i.ibb.co.com/9sgz3F7/dhanus.jpg",
+    name: "Dhanush",
+    role: "Maintainer",
+    device_name: ["Redmi 12 5G/Poco M6 Pro/Redmi Note 12R"],
+    device_codename: ["Sky"],
+    social: {
+      github: "https://github.com/dhanush281",
+      telegram: "https://t.me/solocaptainblaze"
+    },
+  },
 ]
 
 // get all data

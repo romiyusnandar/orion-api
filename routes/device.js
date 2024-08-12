@@ -36,22 +36,6 @@ const deviceData = [
   //   require_custom_recovery: "Yes"
   // },
   {
-    _id: 113,
-    slug: "vili",
-    device_image: "https://i.ibb.co.com/q9gv4PZ/vili.jpg",
-    device_name: "Xiaomi 11T Pro",
-    device_codename: "Vili",
-    device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vili.md",
-    maintainer_name: "Omar",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/vili",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
-  },
-  {
     _id: 101,
     slug: "rock",
     device_image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//99/MTA-87043382/xiaomi_xiaomi_poco_m5_full31_mnso77ok.jpg",
@@ -148,6 +132,22 @@ const deviceData = [
   //   require_custom_recovery: "Yes"
   // },
   {
+    _id: 113,
+    slug: "vili",
+    device_image: "https://i.ibb.co.com/q9gv4PZ/vili.jpg",
+    device_name: "Xiaomi 11T Pro",
+    device_codename: "Vili",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vili.md",
+    maintainer_name: "Omar",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/vili",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
+  {
     _id: 108,
     slug: "fog",
     device_image: "https://i.ibb.co.com/bHphyP8/redmi-10-c.jpg",
@@ -160,6 +160,22 @@ const deviceData = [
     official_status: "• Active Maintained",
     android_version: "14.0",
     download_link: "https://sourceforge.net/projects/orionos/files/A14/fog",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
+  {
+    _id: 114,
+    slug: "sky",
+    device_image: "https://i.ibb.co.com/frTrB3h/sky.png",
+    device_name: "Redmi 12 5G/Poco M6 Pro/Redmi Note 12R",
+    device_codename: "Sky",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sky.md",
+    maintainer_name: "Dhanush",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/sky",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
