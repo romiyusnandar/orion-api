@@ -2,6 +2,41 @@ const express = require('express');
 const router = express.Router();
 
 const changelog = [
+    {
+    _id: 105,
+    date: "August 2024",
+    changes: [
+      "Bump version to Centauri"
+      "Merge August 2024 Security Patch"
+      "OrionSpaces: Integrate into new design of interface menu"
+      "OrionSpaces: Improvements for cardview shape aspect ratio"
+      "Drop Alarm Blocker & Wakelock Blocker"
+      "Optimize notification scaling/rendering"
+      "Apply wakelock for notification sound"
+      "SystemUI: Remove composite alpha from additional scrim on lockscreen"
+      "SystemUI: Hide face unlock recognition animation on UDFPS devices"
+      "SystemUI: adjustments default staturbar padding"
+      "SystemUI: Fix crash when click rotation button on keyguard"
+      "SystemUI: Fix crash when switching QS view parents"
+      "base: Improve height CollapsingToolbarBar"
+      "PixelPropUtils: Add support for JSON based (PIF) spoofing"
+      "PixelPropUtils: Implement json-based game spoofing"
+      "PixelPropUtils: Switch fingerprint to akita"
+      "SystemUI: Show island notification on landscape"
+      "SystemUI: Allow setting QS rows"
+      "Remove three finger swipe to screenshot"
+      "Add three fingers swipe actions"
+      "Improvements for three fingers swipe actions"
+      "PixelPropUtils: Do not spoof mainline models to google photos"
+      "SystemUI: Drop SystemUIClocks-NumOverlap"
+      "Settings: add preference for Build Status information"
+      "Settings: Update the battery saver scheduler minimum level"
+      "Settings: Hide app feature"
+      "Launcher3: Implement long press nav bar to search gesture"
+      "Launcher3: Enable freeform shortcut when desktop mode is disabled"
+      "And more"
+    ]
+  },
   {
     _id: 104,
     date: "July 2024 Pt.3",
