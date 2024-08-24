@@ -34,6 +34,7 @@ const changelog = [
       "Settings: Hide app feature"
       "Launcher3: Implement long press nav bar to search gesture"
       "Launcher3: Enable freeform shortcut when desktop mode is disabled"
+      "And more"
     ]
   },
   {
