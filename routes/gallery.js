@@ -1,9 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-const gallery = [
+const galleryData = [
   {
     _id: 101,
+    slug: "cosmic",
     version: "Cosmic",
     screenshot: [
       {
@@ -57,7 +58,26 @@ const gallery = [
 
 // get all data
 router.get("/gallery", (req, res) => {
-  res.send(gallery)
+  res.send(galleryData)
+});
+
+// get singgle data by id or slug
+router.get("/gallery/:param", (req, res) => {
+  const param = req.params.param;
+  let gallery;
+
+  if (isNaN(param)) {
+    gallery = galleryData.find((item) => item.slug === param);
+  } else {
+    const galleryId = parseInt(param);
+    gallery = galleryData.find((item) => item._id === galleryId);
+  }
+
+  if (!gallery) {
+    return res.status(404).json({msg: "Device not found"});
+  }
+
+  res.json(gallery);
 });
 
 module.exports = router;
