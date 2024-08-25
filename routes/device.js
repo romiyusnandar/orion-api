@@ -19,22 +19,22 @@ const deviceData = [
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
-  // {
-  //   _id: 105,
-  //   slug: "tissot",
-  //   device_image: "https://i.ibb.co.com/Yd7f6HV/tissot.jpg",
-  //   device_name: "Mi A1",
-  //   device_codename: "Tissot",
-  //   device_brand: "xiaomi",
-  //   device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
-  //   maintainer_name: "RomiYusnandar",
-  //   build_status: "Stable",
-  //   official_status: "• Active Maintained",
-  //   android_version: "14.0",
-  //   download_link: "/",
-  //   release_frequency: "Monthly",
-  //   require_custom_recovery: "Yes"
-  // },
+  {
+    _id: 105,
+    slug: "tissot",
+    device_image: "https://i.ibb.co.com/Yd7f6HV/tissot.jpg",
+    device_name: "Mi A1",
+    device_codename: "Tissot",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
+    maintainer_name: "RomiYusnandar",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "/",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
   {
     _id: 101,
     slug: "rock",

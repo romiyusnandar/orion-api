@@ -19,8 +19,8 @@ const developerData = [
     image: "https://i.ibb.co.com/k96p2fC/romi.jpg",
     name: "romi.yusna",
     role: "Co-Founder",
-    device_name: ["Redmi Note 10 Pro"],
-    device_codename: ["Sweet"],
+    device_name: ["Redmi Note 10 Pro", "Xiaomi Mi A1"],
+    device_codename: ["Sweet", "Tissot"],
     social: {
       github: "https://github.com/romiyusnandar",
       telegram: "https://t.me/romiyusna"
