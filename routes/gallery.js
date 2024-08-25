@@ -3,6 +3,12 @@ const router = express.Router();
 
 const galleryData = [
   {
+    _id: 102,
+    slug: "centauri",
+    version: "Centauri",
+    screenshot: []
+  },
+  {
     _id: 101,
     slug: "cosmic",
     version: "Cosmic",
