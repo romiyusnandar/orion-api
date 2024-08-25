@@ -31,7 +31,7 @@ const deviceData = [
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "/",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
