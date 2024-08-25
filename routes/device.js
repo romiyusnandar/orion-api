@@ -27,7 +27,7 @@ const deviceData = [
     device_codename: "Tissot",
     device_brand: "xiaomi",
     device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
-    maintainer_name: "RomiYusnandar",
+    maintainer_name: "romi.yusna",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
