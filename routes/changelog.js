@@ -2,6 +2,21 @@ const express = require('express');
 const router = express.Router();
 
 const changelog = [
+  {
+    _id: 106,
+    date: "August 2024 #2",
+    changes: [
+      "Spoof encrytion prop as encrypted",
+      "init: Spoof additional props",
+      "Fix bug three finger swipe action",
+      "Remove default action for three finger swipe",
+      "services: Intercept locked apps launching from recents",
+      "SystemUI: Update track title and artist on metadata change",
+      "PixelPropsUtils: Clean up blocking key attestation",
+      "Spoof a valid certificate chain for hardware attestations",
+      "PixelPropUtils: Switch to SystemProprties for mainline spoofing"
+    ]
+  },
     {
     _id: 105,
     date: "August 2024",
