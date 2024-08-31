@@ -67,7 +67,7 @@ const developerData = [
     image: "https://i.ibb.co.com/8gZgLRT/rmdn.jpg",
     name: "rmdn.",
     role: "Maintainer",
-    device_name: ["Poco X6/Redmi Note 13 Pro"],
+    device_name: ["Poco X6 / Redmi Note 13 Pro"],
     device_codename: ["Garnet"],
     social: {
       github: "https://github.com/ramaadni",
@@ -91,7 +91,7 @@ const developerData = [
     image: "https://i.ibb.co.com/9GJrbc1/nextworks.jpg",
     name: "NextWorks",
     role: "Maintainer",
-    device_name: ["Poco F5 Pro/Redmi K60"],
+    device_name: ["Poco F5 Pro / Redmi K60"],
     device_codename: ["Mondrian"],
     social: {
       github: "https://github.com/NextWork123",
@@ -151,11 +151,23 @@ const developerData = [
     image: "https://i.ibb.co.com/9sgz3F7/dhanus.jpg",
     name: "Dhanush",
     role: "Maintainer",
-    device_name: ["Redmi 12 5G/Poco M6 Pro/Redmi Note 12R"],
+    device_name: ["Redmi 12 5G / Poco M6 Pro / Redmi Note 12R"],
     device_codename: ["Sky"],
     social: {
       github: "https://github.com/dhanush281",
       telegram: "https://t.me/solocaptainblaze"
+    },
+  },
+  {
+    _id: 114,
+    image: "https://i.ibb.co.com/Y0FDszp/rams.jpg",
+    name: "ramshell688",
+    role: "Maintainer",
+    device_name: ["Poco F6 / Redmi Turbo 3"],
+    device_codename: ["Peridot"],
+    social: {
+      github: "https://github.com/ramshell688",
+      telegram: "https://t.me/ramshell688"
     },
   },
 ]
