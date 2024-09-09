@@ -228,6 +228,22 @@ const deviceData = [
     require_custom_recovery: "Yes"
   },
   {
+    _id: 116,
+    slug: "sunny",
+    device_image: "https://i.ibb.co.com/mcLv6z0/mojito.webp",
+    device_name: "Redmi Note 10",
+    device_codename: "Sunny",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sunny.md",
+    maintainer_name: "mnasibzade",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/sunny",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
+  {
     _id: 104,
     slug: "sweet",
     device_image: "https://wiki.lineageos.org/images/devices/sweet.png",
