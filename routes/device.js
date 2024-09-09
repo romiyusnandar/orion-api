@@ -131,22 +131,6 @@ const deviceData = [
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
-  // {
-  //   _id: 102,
-  //   slug: "lavender",
-  //   device_image: "https://i.ibb.co.com/gzCk4S1/lavender.png",
-  //   device_name: "Redmi Note 7",
-  //   device_codename: "Lavender",
-  //   device_brand: "xiaomi",
-  //   device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/lavender.md",
-  //   maintainer_name: "Onle",
-  //   build_status: "Stable",
-  //   official_status: "• Active Maintained",
-  //   android_version: "14.0",
-  //   download_link: "/",
-  //   release_frequency: "Monthly",
-  //   require_custom_recovery: "Yes"
-  // },
   {
     _id: 113,
     slug: "vili",
@@ -208,6 +192,22 @@ const deviceData = [
     official_status: "• Active Maintained",
     android_version: "14.0",
     download_link: "https://sourceforge.net/projects/orionos/files/A14/ysl",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
+  {
+    _id: 102,
+    slug: "lavender",
+    device_image: "https://i.ibb.co.com/gzCk4S1/lavender.png",
+    device_name: "Redmi Note 7",
+    device_codename: "Lavender",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/lavender.md",
+    maintainer_name: "Onle",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "/",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },

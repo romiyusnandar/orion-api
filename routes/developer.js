@@ -170,6 +170,18 @@ const developerData = [
       telegram: "https://t.me/ramshell688"
     },
   },
+  {
+    _id: 115,
+    image: "https://i.ibb.co.com/ys9kt0X/sa-sajid.jpg",
+    name: "Sã Śâjjãd",
+    role: "Maintainer",
+    device_name: ["Redmi Note 7"],
+    device_codename: ["Lavender"],
+    social: {
+      github: "",
+      telegram: "https://t.me/sa_sajjadx"
+    },
+  },
 ]
 
 // get all data
