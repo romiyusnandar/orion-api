@@ -64,14 +64,14 @@ const developerData = [
   },
   {
     _id: 106,
-    image: "https://i.ibb.co.com/8gZgLRT/rmdn.jpg",
-    name: "rmdn.",
+    image: "https://i.ibb.co.com/Lzkc0NM/drenz.png",
+    name: "Drenzzz.",
     role: "Maintainer",
     device_name: ["Poco X6 / Redmi Note 13 Pro"],
     device_codename: ["Garnet"],
     social: {
-      github: "https://github.com/ramaadni",
-      telegram: "https://t.me/ramaadni"
+      github: "https://github.com/drenzzz",
+      telegram: "https://t.me/realdrenzzz"
     },
   },
   {
