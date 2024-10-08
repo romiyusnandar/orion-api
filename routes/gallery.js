@@ -3,6 +3,20 @@ const router = express.Router();
 
 const galleryData = [
   {
+    _id: 103,
+    slug: "andromeda",
+    version: "Andromeda",
+    screenshot: [
+      { image: "https://i.ibb.co.com/fY7cMpn/photo-2024-10-08-20-25-38.jpg" },
+      { image: "https://i.ibb.co.com/59ZhdPv/photo-2024-10-08-20-25-40.jpg" },
+      { image: "https://i.ibb.co.com/WzkyRG7/photo-2024-10-08-20-25-47.jpg" },
+      { image: "https://i.ibb.co.com/0r7WkJ9/photo-2024-10-08-20-25-42.jpg" },
+      { image: "https://i.ibb.co.com/sJ22C4g/photo-2024-10-08-20-25-34.jpg" },
+      { image: "https://i.ibb.co.com/Fz0nYGV/photo-2024-10-08-20-25-31.jpg" },
+      { image: "https://i.ibb.co.com/P91zYWq/photo-2024-10-08-20-25-28.jpg" }
+    ]
+  },
+  {
     _id: 102,
     slug: "centauri",
     version: "Centauri",
