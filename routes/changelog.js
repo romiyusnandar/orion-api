@@ -3,6 +3,26 @@ const router = express.Router();
 
 const changelog = [
   {
+    _id: 107,
+    date: "September 2024",
+    changes: [
+      "Merge September 2024 Security patch",
+      "Bump version to Andromeda",
+      "More improvements for three finger swipe",
+      "BrightnessController: Prevent possible memory leak",
+      "PixelPropsUtils: update to latest komodo beta",
+      "SystemUI: BatteryController: Fix build of Car SystemUI",
+      "BatteryMeterView: Battery icon available by default",
+      "BatteryStyles: Handle visibility from controller only",
+      "Launcher3: Fix keyboard disappear on empty search",
+      "Launcher3: Quickspace: Rewrite for now playing",
+      "Improve the use of pointer",
+      "GameSpace: Introduce QuickStart App in Freeform",
+      "Etc"
+
+    ]
+  },
+  {
     _id: 106,
     date: "August 2024 #2",
     changes: [
