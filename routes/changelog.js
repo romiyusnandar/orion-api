@@ -3,6 +3,14 @@ const router = express.Router();
 
 const changelog = [
   {
+    _id: 108,
+    date: "September 2024",
+    changes: [
+      "Merge October 2024 Security patch",
+      "Etc. (dev busy for telling changes xd)"
+    ]
+  },
+  {
     _id: 107,
     date: "September 2024",
     changes: [
@@ -19,7 +27,6 @@ const changelog = [
       "Improve the use of pointer",
       "GameSpace: Introduce QuickStart App in Freeform",
       "Etc"
-
     ]
   },
   {
