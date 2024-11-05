@@ -4,7 +4,7 @@ const router = express.Router();
 const changelog = [
   {
     _id: 108,
-    date: "September 2024",
+    date: "October 2024",
     changes: [
       "Merge October 2024 Security patch",
       "Etc. (dev busy for telling changes xd)"
