@@ -259,6 +259,22 @@ const deviceData = [
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
+  {
+    _id: 117,
+    slug: "beryllium",
+    device_image: "https://i.ibb.co.com/7Jbd0M6/pocophone.jpg",
+    device_name: "Pocophone F1",
+    device_codename: "Beryllium",
+    device_brand: "xiaomi",
+    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/beryllium.md",
+    maintainer_name: "Rve",
+    build_status: "Stable",
+    official_status: "• Active Maintained",
+    android_version: "14.0",
+    download_link: "https://sourceforge.net/projects/orionos/files/A14/beryllium",
+    release_frequency: "Monthly",
+    require_custom_recovery: "Yes"
+  },
 ]
 
 // get all data
