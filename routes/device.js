@@ -10,12 +10,17 @@ const deviceData = [
     device_name: "Nothing Phone 2",
     device_codename: "Pong",
     device_brand: "nothing-phone",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/Pong.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/Pong.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/Pong",
+      }
+    ],
     maintainer_name: "AgBKartikey",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/Pong",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -26,12 +31,17 @@ const deviceData = [
     device_name: "Mi A1",
     device_codename: "Tissot",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
+      }
+    ],
     maintainer_name: "romi.yusna",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -42,12 +52,17 @@ const deviceData = [
     device_name: "Poco M5",
     device_codename: "Rock",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/rock.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/rock.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/rock",
+      }
+    ],
     maintainer_name: "Shakib",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/rock",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -58,12 +73,17 @@ const deviceData = [
     device_name: "Poco X3 NFC",
     device_codename: "Surya",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/surya.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/surya.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/surya",
+      }
+    ],
     maintainer_name: "Skyy丨アラタ",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/surya",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -74,12 +94,17 @@ const deviceData = [
     device_name: "Poco X3 Pro",
     device_codename: "Vayu",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vayu.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vayu.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/vayu"
+      }
+    ],
     maintainer_name: "ぞうしろかずわ",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/vayu",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -90,12 +115,17 @@ const deviceData = [
     device_name: "Poco X6 / Redmi Note 13 Pro",
     device_codename: "Garnet",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/garnet.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/garnet.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/garnet"
+      }
+    ],
     maintainer_name: "Drenzzz.",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/garnet",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -106,12 +136,17 @@ const deviceData = [
     device_name: "Poco F5 Pro / Redmi K60",
     device_codename: "Mondrian",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/mondrian.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/mondrian.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/mondrian",
+      }
+    ],
     maintainer_name: "NextWorks",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/mondrian",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -122,12 +157,17 @@ const deviceData = [
     device_name: "Poco F6 / Redmi Turbo 3",
     device_codename: "Peridot",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/peridot.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/peridot.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/peridot",
+      }
+    ],
     maintainer_name: "ramshell688",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/peridot",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -138,12 +178,17 @@ const deviceData = [
     device_name: "Xiaomi 11T Pro",
     device_codename: "Vili",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vili.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vili.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/vili",
+      }
+    ],
     maintainer_name: "Omar",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/vili",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -154,12 +199,17 @@ const deviceData = [
     device_name: "Redmi 10C / 10 Power",
     device_codename: "Fog/Wind/Rain",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/fog.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/fog.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/fog",
+      }
+    ],
     maintainer_name: "Iverzasterix",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/fog",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -170,12 +220,17 @@ const deviceData = [
     device_name: "Redmi 12 5G / Poco M6 Pro / Redmi Note 12R",
     device_codename: "Sky",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sky.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sky.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/sky",
+      }
+    ],
     maintainer_name: "Dhanush",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/sky",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -186,12 +241,17 @@ const deviceData = [
     device_name: "Redmi S2",
     device_codename: "Ysl",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/ysl.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/ysl.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/ysl",
+      }
+    ],
     maintainer_name: "AL",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/ysl",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -202,12 +262,17 @@ const deviceData = [
     device_name: "Redmi Note 7",
     device_codename: "Lavender",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/lavender.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/lavender.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/lavender",
+      }
+    ],
     maintainer_name: "Sã Śâjjãd",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/lavender",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -218,12 +283,17 @@ const deviceData = [
     device_name: "Redmi Note 8/8T",
     device_codename: "Ginkgo",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/ginkgo.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/ginkgo.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/ginkgo",
+      }
+    ],
     maintainer_name: "Hirokixd",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/ginkgo",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -234,12 +304,17 @@ const deviceData = [
     device_name: "Redmi Note 10",
     device_codename: "Sunny",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sunny.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sunny.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/sunny",
+      }
+    ],
     maintainer_name: "mnasibzade",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/sunny",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -250,12 +325,17 @@ const deviceData = [
     device_name: "Redmi Note 10 Pro",
     device_codename: "Sweet",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sweet.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sweet.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/sweet",
+      }
+    ],
     maintainer_name: "romi.yusna",
     build_status: "Stable",
     official_status: "• Active Maintained",
     android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/sweet",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -266,12 +346,16 @@ const deviceData = [
     device_name: "Pocophone F1",
     device_codename: "Beryllium",
     device_brand: "xiaomi",
-    device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/beryllium.md",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/beryllium.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/beryllium"
+      }
+    ],
     maintainer_name: "Rve",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
-    download_link: "https://sourceforge.net/projects/orionos/files/A14/beryllium",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },

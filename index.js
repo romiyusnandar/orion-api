@@ -10,7 +10,21 @@ readdirSync("./routes").map((file) =>
 
 app.use(cors())
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/index.html")
+  res.status(200).send({
+    success: true,
+    message: "Welcome to Orion API",
+    author: "romi.yusna",
+    documentation: [
+      {
+        url: "/developers or /developers/:id",
+        description: "List of developers"
+      },
+      {
+        url: "/devices or /devices/:id",
+        description: "List of devices"
+      }
+    ]
+  })
 })
 
 require("dotenv").config();
