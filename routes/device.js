@@ -350,6 +350,28 @@ router.get("/device", (req, res) => {
   res.send(deviceData)
 });
 
+router.get("/device/search", (req, res) => {
+  const query = req.query.q;
+  if (!query) {
+    return res.status(400).json({ msg: "Search query is required" });
+  }
+
+  const searchResults = deviceData.filter((device) => {
+    const searchTerm = query.toLowerCase();
+    return (
+      device.device_name.toLowerCase().includes(searchTerm) ||
+      device.device_codename.toLowerCase().includes(searchTerm) ||
+      device.device_brand.toLowerCase().includes(searchTerm)
+    );
+  });
+
+  if (searchResults.length === 0) {
+    return res.status(404).json({ msg: "No devices found matching the search query" });
+  }
+
+  res.json(searchResults);
+});
+
 // get singgle data by id or slug
 router.get("/device/:param", (req, res) => {
   const param = req.params.param;
@@ -380,5 +402,6 @@ router.get("/device/brand/:brand", (req, res) => {
 
   res.json(devicesByBrand);
 });
+
 
 module.exports = router;
