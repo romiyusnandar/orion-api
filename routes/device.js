@@ -20,7 +20,6 @@ const deviceData = [
     maintainer_name: "AgBKartikey",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -41,7 +40,6 @@ const deviceData = [
     maintainer_name: "romi.yusna",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -62,7 +60,6 @@ const deviceData = [
     maintainer_name: "Shakib",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -83,7 +80,6 @@ const deviceData = [
     maintainer_name: "Skyy丨アラタ",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -104,7 +100,6 @@ const deviceData = [
     maintainer_name: "ぞうしろかずわ",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -125,7 +120,6 @@ const deviceData = [
     maintainer_name: "Drenzzz.",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -146,7 +140,6 @@ const deviceData = [
     maintainer_name: "NextWorks",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -167,7 +160,6 @@ const deviceData = [
     maintainer_name: "ramshell688",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -188,7 +180,6 @@ const deviceData = [
     maintainer_name: "Omar",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -209,7 +200,6 @@ const deviceData = [
     maintainer_name: "Iverzasterix",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -230,7 +220,6 @@ const deviceData = [
     maintainer_name: "Dhanush",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -251,7 +240,6 @@ const deviceData = [
     maintainer_name: "AL",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -272,7 +260,6 @@ const deviceData = [
     maintainer_name: "Sã Śâjjãd",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -293,7 +280,6 @@ const deviceData = [
     maintainer_name: "Hirokixd",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -314,7 +300,6 @@ const deviceData = [
     maintainer_name: "mnasibzade",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },
@@ -335,7 +320,6 @@ const deviceData = [
     maintainer_name: "romi.yusna",
     build_status: "Stable",
     official_status: "• Active Maintained",
-    android_version: "14.0",
     release_frequency: "Monthly",
     require_custom_recovery: "Yes"
   },

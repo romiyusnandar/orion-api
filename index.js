@@ -4,6 +4,7 @@ const app = express();
 
 const {readdirSync} = require("fs");
 
+app.use(cors());
 readdirSync("./routes").map((file) =>
   app.use("/", require("./routes/" + file))
 );
