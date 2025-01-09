@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 
 const deviceData = [
-  // nothing
   {
     _id: 112,
     slug: "pong",
@@ -15,13 +14,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/Pong.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/Pong",
+        maintainer_name: "AgBKartikey",
       }
     ],
-    maintainer_name: "AgBKartikey",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 105,
@@ -35,13 +30,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
+        maintainer_name: "romi.yusna",
       }
     ],
-    maintainer_name: "romi.yusna",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 101,
@@ -55,13 +46,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/rock.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/rock",
+        maintainer_name: "Shakib",
       }
     ],
-    maintainer_name: "Shakib",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 107,
@@ -75,13 +62,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/surya.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/surya",
+        maintainer_name: "Skyy丨アラタ",
       }
     ],
-    maintainer_name: "Skyy丨アラタ",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 111,
@@ -94,14 +77,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vayu.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/vayu"
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/vayu",
+        maintainer_name: "ぞうしろかずわ",
       }
     ],
-    maintainer_name: "ぞうしろかずわ",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 106,
@@ -114,14 +93,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/garnet.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/garnet"
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/garnet",
+        maintainer_name: "Drenzzz.",
       }
     ],
-    maintainer_name: "Drenzzz.",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 109,
@@ -135,13 +110,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/mondrian.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/mondrian",
+        maintainer_name: "NextWorks",
       }
     ],
-    maintainer_name: "NextWorks",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 115,
@@ -155,13 +126,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/peridot.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/peridot",
+        maintainer_name: "ramshell688",
       }
     ],
-    maintainer_name: "ramshell688",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 113,
@@ -175,13 +142,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vili.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/vili",
+        maintainer_name: "Omar",
       }
     ],
-    maintainer_name: "Omar",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 108,
@@ -195,13 +158,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/fog.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/fog",
+        maintainer_name: "Iverzasterix",
       }
     ],
-    maintainer_name: "Iverzasterix",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 114,
@@ -215,13 +174,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sky.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/sky",
+        maintainer_name: "Dhanush",
       }
     ],
-    maintainer_name: "Dhanush",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 110,
@@ -235,13 +190,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/ysl.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/ysl",
+        maintainer_name: "AL",
       }
     ],
-    maintainer_name: "AL",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 102,
@@ -255,13 +206,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/lavender.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/lavender",
+        maintainer_name: "Sã Śâjjãd",
       }
     ],
-    maintainer_name: "Sã Śâjjãd",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 103,
@@ -275,13 +222,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/ginkgo.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/ginkgo",
+        maintainer_name: "Hirokixd",
       }
     ],
-    maintainer_name: "Hirokixd",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 116,
@@ -295,13 +238,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sunny.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/sunny",
+        maintainer_name: "mnasibzade",
       }
     ],
-    maintainer_name: "mnasibzade",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 104,
@@ -315,13 +254,9 @@ const deviceData = [
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sweet.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/sweet",
+        maintainer_name: "romi.yusna",
       }
     ],
-    maintainer_name: "romi.yusna",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
   {
     _id: 117,
@@ -334,14 +269,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/beryllium.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/beryllium"
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/beryllium",
+        maintainer_name: "Rve",
       }
     ],
-    maintainer_name: "Rve",
-    build_status: "Stable",
-    official_status: "• Active Maintained",
-    release_frequency: "Monthly",
-    require_custom_recovery: "Yes"
   },
 ]
 
