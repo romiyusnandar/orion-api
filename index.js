@@ -17,13 +17,13 @@ app.get("/", (req, res) => {
     author: "romi.yusna",
     documentation: [
       {
-        url: "/developers or /developers/:id",
+        url: "/developer or /developer/:id",
         description: "List of developers"
       },
       {
         url: "/devices or /devices/:id",
         description: "List of devices"
-      }
+      },
     ]
   })
 })

@@ -201,15 +201,17 @@ router.get("/developer", (req, res) => {
   res.send(developerData)
 });
 
-// get singgle data
-router.get("/developer/:id", (req, res) => {
-  const developerId = parseInt(req.params.id)
-  const singgleDeveloper = developerData.find((item) => item._id === developerId)
+// get developers by name
+router.get("/developer/:name", (req, res) => {
+  const developerName = req.params.name.toLowerCase();
+  const developer = developerData.find(
+    (item) => item.name.toLowerCase() === developerName
+  );
 
-  if (!developerId) {
-    return res.status(404).json({msg: "Developer not found"})
+  if (!developer) {
+    return res.status(404).json({ msg: "Developer not found" });
   }
-  res.json(singgleDeveloper)
+  res.json(developer);
 });
 
 module.exports = router;
