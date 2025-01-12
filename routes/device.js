@@ -34,6 +34,22 @@ const deviceData = [
       }
     ],
   },
+  // {
+  //   _id: 118,
+  //   slug: "mi8937",
+  //   device_image: "https://i.ibb.co.com/Yd7f6HV/tissot.jpg",
+  //   device_name: "Mi8937",
+  //   device_codename: "Mi8937",
+  //   device_brand: "xiaomi",
+  //   device_build: [
+  //     {
+  //       version: "Android 14",
+  //       device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
+  //       download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
+  //       maintainer_name: "romi.yusna",
+  //     }
+  //   ],
+  // },
   {
     _id: 101,
     slug: "rock",
@@ -260,6 +276,22 @@ const deviceData = [
   },
   {
     _id: 117,
+    slug: "mi8937",
+    device_image: "",
+    device_name: "Mi8937",
+    device_codename: "Mi8937",
+    device_brand: "xiaomi",
+    device_build: [
+      {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/mi8937.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/mi8937",
+        maintainer_name: "Rve",
+      }
+    ],
+  },
+  {
+    _id: 118,
     slug: "beryllium",
     device_image: "https://i.ibb.co.com/7Jbd0M6/pocophone.jpg",
     device_name: "Pocophone F1",
