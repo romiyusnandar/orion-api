@@ -23,6 +23,7 @@ const source = [
     img: "https://i.ibb.co.com/7JFD2Cz/photo-2025-01-09-17-42-12.jpg",
     codename: "Andromeda",
     date: "September 2024",
+    slug: "andromeda",
     description: "Centauri refers to a star system in the constellation Centaurus, best known for Alpha Centauri, the closest star system to Earth, which includes three stars: Alpha Centauri A, Alpha Centauri B, and Proxima Centauri. Proxima Centauri is the nearest known star to the Sun and hosts a potentially habitable exoplanet, Proxima b.",
     changes: [
       "Merge September 2024 Security patch",
@@ -148,6 +149,17 @@ const source = [
 // get all data
 router.get("/source", (req, res) => {
   res.send(source)
+});
+
+// get data by slug
+router.get("/source/:slug", (req, res) => {
+  const slug = req.params.slug;
+  const result = source.find(item => item.slug === slug);
+  if (result) {
+    res.send(result);
+  } else {
+    res.status(404).send({ message: "Source not found" });
+  }
 });
 
 module.exports = router;
