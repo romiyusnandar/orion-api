@@ -7,6 +7,7 @@ const developerData = [
     image: "https://i.ibb.co.com/Zgm3k32/Hirokixd.jpg",
     name: "Hirokixd",
     role: "Founder",
+    bio: "Hi! I'am Founder of OrionOS. I love to develop custom ROMs. I am a student and I am passionate about technology. I am a big fan of open-source projects.",
     device_name: ["Redmi Note 8/8T"],
     device_codename: ["Ginkgo/Willow"],
     social: {
@@ -20,6 +21,7 @@ const developerData = [
     image: "https://i.ibb.co.com/k96p2fC/romi.jpg",
     name: "romi.yusna",
     role: "Co-Founder",
+    bio: "Hi! I'am Co-Founder of OrionOS. I love to develop custom ROMs. I am a student and I am passionate about technology. I am a big fan of open-source projects.",
     device_name: ["Redmi Note 10 Pro", "Xiaomi Mi A1"],
     device_codename: ["Sweet", "Tissot"],
     social: {
@@ -33,6 +35,7 @@ const developerData = [
     image: "https://i.ibb.co.com/YfXsptS/onle.jpg",
     name: "Onle",
     role: "Core Developer",
+    bio: "Hi! I'am Core Developer of OrionOS. I love to develop custom ROMs. I am a student and I am passionate about technology. I am a big fan of open-source projects.",
     device_name: [],
     device_codename: [],
     social: {
@@ -46,6 +49,7 @@ const developerData = [
     image: "https://i.ibb.co.com/b39Y9mx/ivz.jpg",
     name: "Iverz",
     role: "UI/UX Design",
+    bio: "Hi! I'am UI/UX Design of OrionOS. I love to develop custom ROMs. I am a student and I am passionate about technology. I am a big fan of open-source projects.",
     device_name: ["Redmi 10C/10 Power"],
     device_codename: ["Fog/Wind/Rain"],
     social: {
@@ -59,6 +63,7 @@ const developerData = [
     image: "https://i.ibb.co.com/pfYpkYC/Rey-afk.jpg",
     name: "Smokey ツ",
     role: "Group Support",
+    bio: "Hi! I'am Group Support of OrionOS. I love to develop custom ROMs. I am a student and I am passionate about technology. I am a big fan of open-source projects.",
     device_name: [],
     device_codename: [],
     social: {
@@ -72,6 +77,7 @@ const developerData = [
     image: "https://i.ibb.co.com/Lzkc0NM/drenz.png",
     name: "Drenzzz.",
     role: "Maintainer",
+    bio: "",
     device_name: ["Poco X6 / Redmi Note 13 Pro"],
     device_codename: ["Garnet"],
     social: {
@@ -85,6 +91,7 @@ const developerData = [
     image: "https://i.ibb.co.com/tXyMMYk/photo-2024-07-15-18-53-49.jpg",
     name: "Skyy丨アラタ",
     role: "Maintainer",
+    bio: "",
     device_name: ["Poco X3 NFC"],
     device_codename: ["Surya"],
     social: {
@@ -98,6 +105,7 @@ const developerData = [
     image: "https://i.ibb.co.com/9GJrbc1/nextworks.jpg",
     name: "NextWorks",
     role: "Maintainer",
+    bio: "",
     device_name: ["Poco F5 Pro / Redmi K60"],
     device_codename: ["Mondrian"],
     social: {
@@ -111,6 +119,7 @@ const developerData = [
     image: "https://i.ibb.co.com/RCs70nx/AL.jpg",
     name: "AL",
     role: "Maintainer",
+    bio: "",
     device_name: ["Redmi 5 Plus"],
     device_codename: ["Vince"],
     social: {
@@ -124,6 +133,7 @@ const developerData = [
     image: "https://i.ibb.co.com/zFHVTrz/jp.jpg",
     name: "ぞうしろかずわ",
     role: "Maintainer",
+    bio: "",
     device_name: ["Poco X3 Pro"],
     device_codename: ["Vayu"],
     social: {
@@ -137,6 +147,7 @@ const developerData = [
     image: "https://i.ibb.co.com/WyRJTjP/abxxx.jpg",
     name: "AgBKartikey",
     role: "Maintainer",
+    bio: "",
     device_name: ["Nothing Phone 2"],
     device_codename: ["Pong"],
     social: {
@@ -150,6 +161,7 @@ const developerData = [
     image: "https://i.ibb.co.com/hcQ6XBK/omar.png",
     name: "Omar",
     role: "Maintainer",
+    bio: "",
     device_name: ["Xiaomi 11T Pro"],
     device_codename: ["Vili"],
     social: {
@@ -163,6 +175,7 @@ const developerData = [
     image: "https://i.ibb.co.com/9sgz3F7/dhanus.jpg",
     name: "Dhanush",
     role: "Maintainer",
+    bio: "",
     device_name: ["Redmi 12 5G / Poco M6 Pro / Redmi Note 12R"],
     device_codename: ["Sky"],
     social: {
@@ -176,6 +189,7 @@ const developerData = [
     image: "https://i.ibb.co.com/Y0FDszp/rams.jpg",
     name: "ramshell688",
     role: "Maintainer",
+    bio: "",
     device_name: ["Poco F6 / Redmi Turbo 3"],
     device_codename: ["Peridot"],
     social: {
@@ -189,6 +203,7 @@ const developerData = [
     image: "https://i.ibb.co.com/ys9kt0X/sa-sajid.jpg",
     name: "Sã Śâjjãd",
     role: "Maintainer",
+    bio: "",
     device_name: ["Redmi Note 7"],
     device_codename: ["Lavender"],
     social: {
@@ -202,6 +217,7 @@ const developerData = [
     image: "https://i.ibb.co.com/7jLB5GN/shakib.jpg",
     name: "Shakib",
     role: "Maintainer",
+    bio: "",
     device_name: ["Poco M5", "Redmi Note 12 Pro 4G"],
     device_codename: ["Rock", "Sweet_k6a"],
     social: {
@@ -215,6 +231,7 @@ const developerData = [
     image: "https://i.ibb.co.com/8gZgLRT/rmdn.jpg",
     name: "Byben",
     role: "Maintainer",
+    bio: "",
     device_name: ["Pixel 6 / 6 Pro"],
     device_codename: ["Raviole"],
     social: {
@@ -228,6 +245,7 @@ const developerData = [
     image: "https://i.ibb.co.com/s2gbJC3/rve.jpg",
     name: "Rve",
     role: "Maintainer",
+    bio: "",
     device_name: ["Pocophone F1", "Mi8937"],
     device_codename: ["Raviole", "Mi8937"],
     social: {
