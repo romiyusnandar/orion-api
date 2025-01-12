@@ -59,8 +59,8 @@ const developerData = [
     image: "https://i.ibb.co.com/pfYpkYC/Rey-afk.jpg",
     name: "Smokey ツ",
     role: "Group Support",
-    device_name: [""],
-    device_codename: [""],
+    device_name: [],
+    device_codename: [],
     social: {
       github: "/teams",
       telegram: "https://t.me/rynothingspecial",
@@ -225,7 +225,7 @@ const developerData = [
   },
   {
     _id: 118,
-    image: "https://i.ibb.co.com/8gZgLRT/rmdn.jpg",
+    image: "https://i.ibb.co.com/s2gbJC3/rve.jpg",
     name: "Rve",
     role: "Maintainer",
     device_name: ["Pocophone F1", "Mi8937"],
