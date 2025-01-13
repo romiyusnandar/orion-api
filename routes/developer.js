@@ -53,7 +53,7 @@ const developerData = [
     name: "Iverz",
     slug: "iverz",
     role: "UI/UX Design",
-    bio: "Hi! I'am UI/UX Design of OrionOS. I love to develop custom ROMs. I am a student and I am passionate about technology. I am a big fan of open-source projects.",
+    bio: "Koniciwa! Iverz desu. I'am UI/UX Designer in OrionOS Project. I am passionate about UI/UX design, especially in mobile app. This is my hobby and if you are interested in working with me, contact me at the contact below.",
     device_name: ["Redmi 10C/10 Power"],
     device_codename: ["Fog/Wind/Rain"],
     social: {
