@@ -31,6 +31,12 @@ const deviceData = [
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
         download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
         maintainer_name: "romi.yusna",
+      },
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
+        maintainer_name: "romi.yusna",
       }
     ],
   },

@@ -4,7 +4,7 @@ const router = express.Router();
 const developerData = [
   {
     _id: 101,
-    image: "https://i.ibb.co.com/Zgm3k32/Hirokixd.jpg",
+    image: "https://i.ibb.co.com/X3wQXyb/hiro.jpg",
     name: "Hirokixd",
     slug: "hirokixd",
     role: "Founder",
@@ -19,7 +19,7 @@ const developerData = [
   },
   {
     _id: 102,
-    image: "https://i.ibb.co.com/k96p2fC/romi.jpg",
+    image: "https://i.ibb.co.com/7ytJ7Mw/romiz.jpg",
     name: "romi.yusna",
     slug: "romi.yusna",
     role: "Co-Founder",
@@ -34,7 +34,7 @@ const developerData = [
   },
   {
     _id: 103,
-    image: "https://i.ibb.co.com/YfXsptS/onle.jpg",
+    image: "https://i.ibb.co.com/vYnMZrw/onlee.jpg",
     name: "Onle",
     slug: "onle",
     role: "Core Developer",
@@ -49,7 +49,7 @@ const developerData = [
   },
   {
     _id: 104,
-    image: "https://i.ibb.co.com/b39Y9mx/ivz.jpg",
+    image: "https://i.ibb.co.com/gdqDq5y/ivzz.jpg",
     name: "Iverz",
     slug: "iverz",
     role: "UI/UX Design",
@@ -64,7 +64,7 @@ const developerData = [
   },
   {
     _id: 105,
-    image: "https://i.ibb.co.com/pfYpkYC/Rey-afk.jpg",
+    image: "https://i.ibb.co.com/HhTdXRx/smokey.jpg",
     name: "Smokey ツ",
     slug: "smokey",
     role: "Group Support",
@@ -79,11 +79,11 @@ const developerData = [
   },
   {
     _id: 106,
-    image: "https://i.ibb.co.com/Lzkc0NM/drenz.png",
+    image: "https://i.ibb.co.com/mG6hYwy/drenz.jpg",
     name: "Drenzzz.",
     slug: "drenzzz",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Poco X6 / Redmi Note 13 Pro"],
     device_codename: ["Garnet"],
     social: {
@@ -98,7 +98,7 @@ const developerData = [
     name: "Skyy丨アラタ",
     slug: "skyy",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Poco X3 NFC"],
     device_codename: ["Surya"],
     social: {
@@ -113,7 +113,7 @@ const developerData = [
     name: "NextWorks",
     slug: "nextworks",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Poco F5 Pro / Redmi K60"],
     device_codename: ["Mondrian"],
     social: {
@@ -128,7 +128,7 @@ const developerData = [
     name: "AL",
     slug: "al",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Redmi 5 Plus"],
     device_codename: ["Vince"],
     social: {
@@ -143,7 +143,7 @@ const developerData = [
     name: "ぞうしろかずわ",
     slug: "kazuwa",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Poco X3 Pro"],
     device_codename: ["Vayu"],
     social: {
@@ -158,7 +158,7 @@ const developerData = [
     name: "AgBKartikey",
     slug: "agbkartikey",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Nothing Phone 2"],
     device_codename: ["Pong"],
     social: {
@@ -173,7 +173,7 @@ const developerData = [
     name: "Omar",
     slug: "omar",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Xiaomi 11T Pro"],
     device_codename: ["Vili"],
     social: {
@@ -188,7 +188,7 @@ const developerData = [
     name: "Dhanush",
     slug: "dhanush",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Redmi 12 5G / Poco M6 Pro / Redmi Note 12R"],
     device_codename: ["Sky"],
     social: {
@@ -203,7 +203,7 @@ const developerData = [
     name: "ramshell688",
     slug: "ramshell688",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Poco F6 / Redmi Turbo 3"],
     device_codename: ["Peridot"],
     social: {
@@ -216,9 +216,9 @@ const developerData = [
     _id: 115,
     image: "https://i.ibb.co.com/ys9kt0X/sa-sajid.jpg",
     name: "Sã Śâjjãd",
-    slug: "sa-sajjad",
+    slug: "sasajjad",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Redmi Note 7"],
     device_codename: ["Lavender"],
     social: {
@@ -233,7 +233,7 @@ const developerData = [
     name: "Shakib",
     slug: "shakib",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Poco M5", "Redmi Note 12 Pro 4G"],
     device_codename: ["Rock", "Sweet_k6a"],
     social: {
@@ -248,7 +248,7 @@ const developerData = [
     name: "Byben",
     slug: "byben",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Pixel 6 / 6 Pro"],
     device_codename: ["Raviole"],
     social: {
@@ -263,7 +263,7 @@ const developerData = [
     name: "Rve",
     slug: "rve",
     role: "Maintainer",
-    bio: "",
+    bio: [],
     device_name: ["Pocophone F1", "Mi8937"],
     device_codename: ["Raviole", "Mi8937"],
     social: {
