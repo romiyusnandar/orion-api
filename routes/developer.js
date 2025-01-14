@@ -49,7 +49,7 @@ const developerData = [
   },
   {
     _id: 104,
-    image: "https://i.ibb.co.com/gdqDq5y/ivzz.jpg",
+    image: "https://i.ibb.co.com/GHrSRGW/ivzz-square.jpg",
     name: "Iverz",
     slug: "iverz",
     role: "UI/UX Design",

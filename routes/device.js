@@ -19,6 +19,22 @@ const deviceData = [
     ],
   },
   {
+    _id: 119,
+    slug: "byben",
+    device_image: "https://i.ibb.co.com/2YgkM45/pixel6.jpg",
+    device_name: "Pixel 6 / 6 Pro",
+    device_codename: "Raviole",
+    device_brand: "google",
+    device_build: [
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/byben.md",
+        download_link: "https://sourceforge.net/projects/orionos/files/A14/byben",
+        maintainer_name: "Byben",
+      }
+    ],
+  },
+  {
     _id: 105,
     slug: "tissot",
     device_image: "https://i.ibb.co.com/Yd7f6HV/tissot.jpg",
@@ -40,22 +56,6 @@ const deviceData = [
       }
     ],
   },
-  // {
-  //   _id: 118,
-  //   slug: "mi8937",
-  //   device_image: "https://i.ibb.co.com/Yd7f6HV/tissot.jpg",
-  //   device_name: "Mi8937",
-  //   device_codename: "Mi8937",
-  //   device_brand: "xiaomi",
-  //   device_build: [
-  //     {
-  //       version: "Android 14",
-  //       device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
-  //       download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
-  //       maintainer_name: "romi.yusna",
-  //     }
-  //   ],
-  // },
   {
     _id: 101,
     slug: "rock",
@@ -283,7 +283,7 @@ const deviceData = [
   {
     _id: 117,
     slug: "mi8937",
-    device_image: "",
+    device_image: "https://i.ibb.co.com/TRdbhr6/msm8937.jpg",
     device_name: "Mi8937",
     device_codename: "Mi8937",
     device_brand: "xiaomi",
