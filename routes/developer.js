@@ -14,7 +14,7 @@ const developerData = [
     social: {
       github: "https://github.com/Wrdn28",
       telegram: "https://t.me/Hirokixd28",
-      donate: "https://saweria.co/Hirokixd"
+      donate: "https://telegra.ph/Donation-to-HK-Projection-01-11"
     },
   },
   {
@@ -68,11 +68,11 @@ const developerData = [
     name: "Smokey ツ",
     slug: "smokey",
     role: "Group Support",
-    bio: "Hi! I'am Group Support of OrionOS. I love to develop custom ROMs. I am a student and I am passionate about technology. I am a big fan of open-source projects.",
+    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue sed mi non tincidunt.",
     device_name: [],
     device_codename: [],
     social: {
-      github: "/teams",
+      github: "",
       telegram: "https://t.me/rynothingspecial",
       donate: ""
     },
@@ -83,7 +83,7 @@ const developerData = [
     name: "Drenzzz.",
     slug: "drenzzz",
     role: "Maintainer",
-    bio: [],
+    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue sed mi non tincidunt.",
     device_name: ["Poco X6 / Redmi Note 13 Pro"],
     device_codename: ["Garnet"],
     social: {
@@ -265,11 +265,11 @@ const developerData = [
     role: "Maintainer",
     bio: [],
     device_name: ["Pocophone F1", "Mi8937"],
-    device_codename: ["Raviole", "Mi8937"],
+    device_codename: ["Beryllium", "Mi8937"],
     social: {
       github: "https://github.com/rve27",
       telegram: "https://t.me/rve27",
-      donate: "https://t.me/rvegroup/33652"
+      donate: "https://t.me/rvosuniverse/33652/63554"
     },
   },
 ]
@@ -280,10 +280,10 @@ router.get("/developer", (req, res) => {
 });
 
 // get developers by name
-router.get("/developer/:name", (req, res) => {
-  const developerName = req.params.name.toLowerCase();
+router.get("/developer/:slug", (req, res) => {
+  const developerSlug = req.params.slug.toLowerCase();
   const developer = developerData.find(
-    (item) => item.name.toLowerCase() === developerName
+    (item) => item.slug.toLowerCase() === developerSlug
   );
 
   if (!developer) {
