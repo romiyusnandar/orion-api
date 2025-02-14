@@ -13,7 +13,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/Pong.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/Pong",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/pong",
+          vanilla: null,
+        },
         maintainer_name: "AgBKartikey",
       }
     ],
@@ -28,8 +31,11 @@ const deviceData = [
     device_build: [
       {
         version: "Android 15",
-        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/byben.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/byben",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/byben.md",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/byben",
+          vanilla: null,
+        },
         maintainer_name: "Byben",
       }
     ],
@@ -45,15 +51,12 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
+        download_links: {
+          gapps: null,
+          vanilla: "https://sourceforge.net/projects/orionos/files/A14/tissot",
+        },
         maintainer_name: "romi.yusna",
       },
-      {
-        version: "Android 15",
-        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/tissot.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/tissot",
-        maintainer_name: "romi.yusna",
-      }
     ],
   },
   {
@@ -67,7 +70,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/rock.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/rock",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/rock",
+          vanilla: null,
+        },
         maintainer_name: "Shakib",
       }
     ],
@@ -83,7 +89,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/surya.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/surya",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/surya",
+          vanilla: null,
+        },
         maintainer_name: "Skyy丨アラタ",
       }
     ],
@@ -99,7 +108,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vayu.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/vayu",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/vayu",
+          vanilla: null
+        },
         maintainer_name: "ぞうしろかずわ",
       }
     ],
@@ -115,7 +127,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/garnet.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/garnet",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/garnet",
+          vanilla: null,
+        },
         maintainer_name: "Drenzzz.",
       }
     ],
@@ -131,7 +146,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/mondrian.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/mondrian",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/mondrian",
+          vanilla: null,
+        },
         maintainer_name: "NextWorks",
       }
     ],
@@ -147,7 +165,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/peridot.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/peridot",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/peridot",
+          vanilla: null,
+        },
         maintainer_name: "ramshell688",
       }
     ],
@@ -163,7 +184,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/vili.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/vili",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/vili",
+          vanilla: null,
+        },
         maintainer_name: "Omar",
       }
     ],
@@ -179,7 +203,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/fog.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/fog",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/fog",
+          vanilla: null,
+        },
         maintainer_name: "Iverzasterix",
       }
     ],
@@ -195,7 +222,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sky.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/sky",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/sky",
+          vanilla: null
+        },
         maintainer_name: "Dhanush",
       }
     ],
@@ -211,7 +241,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/ysl.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/ysl",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/ysl",
+          vanilla: null
+        },
         maintainer_name: "AL",
       }
     ],
@@ -227,7 +260,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/lavender.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/lavender",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/lavender",
+          vanilla: null
+        },
         maintainer_name: "Sã Śâjjãd",
       }
     ],
@@ -243,7 +279,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/ginkgo.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/ginkgo",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/ginkgo",
+          vanilla: null
+        },
         maintainer_name: "Hirokixd",
       }
     ],
@@ -259,7 +298,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sunny.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/sunny",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/sunny",
+          vanilla: null
+        },
         maintainer_name: "mnasibzade",
       }
     ],
@@ -275,7 +317,19 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sweet.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/sweet",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/sweet",
+          vanilla: null
+        },
+        maintainer_name: "romi.yusna",
+      },
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/sweet.md",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/sweet",
+          vanilla: null,
+        },
         maintainer_name: "romi.yusna",
       }
     ],
@@ -291,7 +345,19 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/mi8937.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/mi8937",
+        download_links: {
+          gapps: null,
+          vanilla: "https://sourceforge.net/projects/orionos/files/A14/mi8937",
+        },
+        maintainer_name: "Rve",
+      },
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/mi8937.md",
+        download_links: {
+          gapps: null,
+          vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/Mi8937_4_19/",
+        },
         maintainer_name: "Rve",
       }
     ],
@@ -307,7 +373,10 @@ const deviceData = [
       {
         version: "Android 14",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/beryllium.md",
-        download_link: "https://sourceforge.net/projects/orionos/files/A14/beryllium",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/beryllium",
+          vanilla: null,
+        },
         maintainer_name: "Rve",
       }
     ],
