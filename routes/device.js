@@ -316,7 +316,7 @@ const deviceData = [
     device_build: [
       {
         version: "Android 14",
-        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sweet.md",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/sweet.txt",
         download_links: {
           gapps: "https://sourceforge.net/projects/orionos/files/A14/sweet",
           vanilla: null
@@ -342,15 +342,6 @@ const deviceData = [
     device_codename: "Mi8937",
     device_brand: "xiaomi",
     device_build: [
-      {
-        version: "Android 14",
-        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/mi8937.md",
-        download_links: {
-          gapps: null,
-          vanilla: "https://sourceforge.net/projects/orionos/files/A14/mi8937",
-        },
-        maintainer_name: "Rve",
-      },
       {
         version: "Android 15",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/Mi8937_4_19.txt",
