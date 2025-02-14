@@ -325,7 +325,7 @@ const deviceData = [
       },
       {
         version: "Android 15",
-        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/sweet.md",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/sweet.txt",
         download_links: {
           gapps: "https://sourceforge.net/projects/orionos/files/A15/sweet",
           vanilla: null,
