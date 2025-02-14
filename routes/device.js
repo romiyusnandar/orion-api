@@ -346,7 +346,7 @@ const deviceData = [
         version: "Android 15",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/Mi8937_4_19.txt",
         download_links: {
-          gapps: null,
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/Mi8937_4_19/",
           vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/Mi8937_4_19/",
         },
         maintainer_name: "Rve",
