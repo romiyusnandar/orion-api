@@ -381,7 +381,7 @@ const deviceData = [
       }
     ],
   },
-{
+  {
     _id: 120,
     slug: "s666ln",
     device_image: "https://i.ibb.co.com/ym1SfmDb/itel-rs4.jpg",
@@ -396,7 +396,7 @@ const deviceData = [
           gapps: "https://sourceforge.net/projects/orionos/files/A15/S666LN",
           vanilla: null,
         },
-        maintainer_name: "⁡⁠ʜᴇᴇᴅ",
+        maintainer_name: "⁡⁠HEED",
       }
     ],
   },
