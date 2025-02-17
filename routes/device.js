@@ -381,6 +381,25 @@ const deviceData = [
       }
     ],
   },
+{
+    _id: 120,
+    slug: "s666ln",
+    device_image: "https://i.ibb.co.com/ym1SfmDb/itel-rs4.jpg",
+    device_name: "Itel RS4",
+    device_codename: "S666LN",
+    device_brand: "itel",
+    device_build: [
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/S666LN.txt",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/S666LN",
+          vanilla: null,
+        },
+        maintainer_name: "⁡⁠ʜᴇᴇᴅ",
+      }
+    ],
+  },
 ]
 
 // get all data
