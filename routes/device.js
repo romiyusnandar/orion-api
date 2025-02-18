@@ -438,7 +438,7 @@ const deviceData = [
     device_build: [
       {
         version: "Android 15",
-        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/hyden.txt",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/haydn.txt",
         download_links: {
           gapps: "https://sourceforge.net/projects/orionos/files/A15/haydn",
           vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/haydn",
