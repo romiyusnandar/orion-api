@@ -419,6 +419,25 @@ const deviceData = [
       }
     ],
   },
+  {
+    _id: 122,
+    slug: "haydn",
+    device_image: "https://i.ibb.co.com/mCQQ5x24/xiaomi-mi-11x-pro-7.jpg",
+    device_name: "Mi 11X Pro",
+    device_codename: "Haydn",
+    device_brand: "xiaomi",
+    device_build: [
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/hyden.txt",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/haydn",
+          vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/haydn",
+        },
+        maintainer_name: "Asim",
+      }
+    ],
+  },
 ]
 
 // get all data
