@@ -400,6 +400,25 @@ const deviceData = [
       }
     ],
   },
+  {
+    _id: 121,
+    slug: "sweet2",
+    device_image: "https://i.ibb.co.com/VYv27ny4/sweet2-1.png",
+    device_name: "Redmi Note 12 Pro",
+    device_codename: "sweet2",
+    device_brand: "xiaomi",
+    device_build: [
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/sweet2.txt",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/sweet2/",
+          vanilla: null,
+        },
+        maintainer_name: "Shakib",
+      }
+    ],
+  },
 ]
 
 // get all data
