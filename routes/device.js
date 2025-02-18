@@ -208,6 +208,15 @@ const deviceData = [
           vanilla: null,
         },
         maintainer_name: "Iverzasterix",
+      },
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic-vanilla/changelogs/fog.txt",
+        download_links: {
+          gapps: null,
+          vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/fog",
+        },
+        maintainer_name: "Ivz",
       }
     ],
   },
