@@ -387,6 +387,15 @@ const deviceData = [
           vanilla: null,
         },
         maintainer_name: "Rve",
+      },
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic-vanilla/changelogs/beryllium.txt",
+        download_links: {
+          gapps: null,
+          vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/beryllium",
+        },
+        maintainer_name: "Rve",
       }
     ],
   },
