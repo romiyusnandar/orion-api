@@ -438,6 +438,25 @@ const deviceData = [
       }
     ],
   },
+  {
+    _id: 123,
+    slug: "marble",
+    device_image: "https://i.ibb.co.com/nqrTY7pv/download-1.jpg",
+    device_name: "Poco F5 / Redmi Note 12 Turbo",
+    device_codename: "Marble",
+    device_brand: "xiaomi",
+    device_build: [
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/marble.txt",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/marble",
+          vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/marble",
+        },
+        maintainer_name: "Maul's",
+      }
+    ],
+  },
 ]
 
 // get all data
