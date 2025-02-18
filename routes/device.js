@@ -443,7 +443,7 @@ const deviceData = [
           gapps: "https://sourceforge.net/projects/orionos/files/A15/haydn",
           vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/haydn",
         },
-        maintainer_name: "Asim",
+        maintainer_name: "Hexdare",
       }
     ],
   },
