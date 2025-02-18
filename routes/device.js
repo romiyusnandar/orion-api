@@ -440,7 +440,7 @@ const deviceData = [
   {
     _id: 122,
     slug: "haydn",
-    device_image: "https://i.ibb.co.com/mCQQ5x24/xiaomi-mi-11x-pro-7.jpg",
+    device_image: "https://i.ibb.co.com/JYcrpv6/234458-0-ktfqea-2.png",
     device_name: "Mi 11X Pro",
     device_codename: "Haydn",
     device_brand: "xiaomi",
