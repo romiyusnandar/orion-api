@@ -466,9 +466,9 @@ const deviceData = [
     device_build: [
       {
         version: "Android 15",
-        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/marble.txt",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic-vanilla/changelogs/marble.txt",
         download_links: {
-          gapps: "https://sourceforge.net/projects/orionos/files/A15/marble",
+          gapps: null,
           vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/marble",
         },
         maintainer_name: "Maul's",
