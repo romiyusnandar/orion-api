@@ -496,7 +496,7 @@ const deviceData = [
   {
     _id: 124,
     slug: "cancunf",
-    device_image: "https://i.ibb.co.com/nqrTY7pv/download-1.jpg",
+    device_image: "https://i.ibb.co.com/LhdzDd0g/download.jpg",
     device_name: "Moto g54 5G",
     device_codename: "Cancunf",
     device_brand: "motorola",
