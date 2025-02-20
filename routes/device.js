@@ -493,6 +493,25 @@ const deviceData = [
       }
     ],
   },
+  {
+    _id: 124,
+    slug: "cancunf",
+    device_image: "https://i.ibb.co.com/nqrTY7pv/download-1.jpg",
+    device_name: "Moto g54 5G",
+    device_codename: "Cancunf",
+    device_brand: "motorola",
+    device_build: [
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/cancunf.txt",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/cancunf",
+          vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/cancunf",
+        },
+        maintainer_name: "Soviet",
+      }
+    ],
+  },
 ]
 
 // get all data
