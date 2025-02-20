@@ -194,8 +194,8 @@ const deviceData = [
         version: "Android 15",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/vili.txt",
         download_links: {
-          gapps: null,
-          vanilla: "https://sourceforge.net/projects/orionos/files/A15/vili",
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/vili",
+          vanilla: null,
         },
         maintainer_name: "Omar",
       }
