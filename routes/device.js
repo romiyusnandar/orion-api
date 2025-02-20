@@ -330,6 +330,15 @@ const deviceData = [
           vanilla: null
         },
         maintainer_name: "mnasibzade",
+      },
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/sunny.txt",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/sunny",
+          vanilla: null,
+        },
+        maintainer_name: "ZNAIV",
       }
     ],
   },
