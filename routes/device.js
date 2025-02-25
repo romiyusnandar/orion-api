@@ -521,6 +521,25 @@ const deviceData = [
       }
     ],
   },
+  {
+    _id: 125,
+    slug: "vince",
+    device_image: "hhttps://i.ibb.co.com/rKf7vGwf/images.jpg",
+    device_name: "Redmi 5 Plus",
+    device_codename: "Vince",
+    device_brand: "xiaomi",
+    device_build: [
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic-vanilla/changelogs/vince.txt",
+        download_links: {
+          gapps: null,
+          vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/vince",
+        },
+        maintainer_name: "neophyte",
+      }
+    ],
+  },
 ]
 
 // get all data
