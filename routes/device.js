@@ -524,7 +524,7 @@ const deviceData = [
   {
     _id: 125,
     slug: "vince",
-    device_image: "hhttps://i.ibb.co.com/rKf7vGwf/images.jpg",
+    device_image: "https://i.ibb.co.com/rKf7vGwf/images.jpg",
     device_name: "Redmi 5 Plus",
     device_codename: "Vince",
     device_brand: "xiaomi",
