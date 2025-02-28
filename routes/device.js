@@ -540,6 +540,25 @@ const deviceData = [
       }
     ],
   },
+  {
+    _id: 126,
+    slug: "gauguin",
+    device_image: "https://i.ibb.co.com/rRy2dGyN/gauguin.jpg",
+    device_name: "Redmi Note 9 Pro 5G / Mi 10i / Mi 10T Lite",
+    device_codename: "Gauguin",
+    device_brand: "xiaomi",
+    device_build: [
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic-vanilla/changelogs/gauguin.txt",
+        download_links: {
+          gapps: null,
+          vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/gauguin",
+        },
+        maintainer_name: "Rasyid",
+      }
+    ],
+  },
 ]
 
 // get all data
