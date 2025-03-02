@@ -94,6 +94,15 @@ const deviceData = [
           vanilla: null,
         },
         maintainer_name: "Skyy丨アラタ",
+      },
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/surya.txt",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A15/surya",
+          vanilla: null,
+        },
+        maintainer_name: "Skyy丨アラタ",
       }
     ],
   },
