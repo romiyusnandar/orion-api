@@ -559,6 +559,25 @@ const deviceData = [
       }
     ],
   },
+  {
+    _id: 127,
+    slug: "mido",
+    device_image: "https://i.ibb.co.com/P39VfJv/midooo-1.jpg",
+    device_name: "Redmi Note 4 / 4X",
+    device_codename: "Mido",
+    device_brand: "xiaomi",
+    device_build: [
+      {
+        version: "Android 15",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic-vanilla/changelogs/mido.txt",
+        download_links: {
+          gapps: null,
+          vanilla: "https://sourceforge.net/projects/orionos/files/A15_vanilla/mido",
+        },
+        maintainer_name: "Rasyid",
+      }
+    ],
+  },
 ]
 
 // get all data
