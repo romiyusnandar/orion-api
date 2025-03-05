@@ -14,17 +14,7 @@ app.get("/", (req, res) => {
   res.status(200).send({
     success: true,
     message: "Welcome to Orion API",
-    author: "romi.yusna",
-    documentation: [
-      {
-        url: "/developer or /developer/:id",
-        description: "List of developers"
-      },
-      {
-        url: "/devices or /devices/:id",
-        description: "List of devices"
-      },
-    ]
+    author: "RyuDev",
   })
 })
 

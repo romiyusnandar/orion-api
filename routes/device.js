@@ -9,6 +9,7 @@ const deviceData = [
     device_name: "Nothing Phone 2",
     device_codename: "Pong",
     device_brand: "nothing-phone",
+    status: "inactive",
     device_build: [
       {
         version: "Android 14",
@@ -28,6 +29,7 @@ const deviceData = [
     device_name: "Pixel 6 / 6 Pro",
     device_codename: "Raviole",
     device_brand: "google",
+    status: "inactive",
     device_build: [
       {
         version: "Android 15",
@@ -47,6 +49,7 @@ const deviceData = [
     device_name: "Mi A1",
     device_codename: "Tissot",
     device_brand: "xiaomi",
+    status: "inactive",
     device_build: [
       {
         version: "Android 14",
@@ -66,6 +69,7 @@ const deviceData = [
     device_name: "Poco M5",
     device_codename: "Rock",
     device_brand: "xiaomi",
+    status: "inactive",
     device_build: [
       {
         version: "Android 14",
@@ -85,6 +89,7 @@ const deviceData = [
     device_name: "Poco X3 NFC",
     device_codename: "Surya",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 14",
@@ -113,6 +118,7 @@ const deviceData = [
     device_name: "Poco X3 Pro",
     device_codename: "Vayu",
     device_brand: "xiaomi",
+    status: "inactive",
     device_build: [
       {
         version: "Android 14",
@@ -132,6 +138,7 @@ const deviceData = [
     device_name: "Poco X6 / Redmi Note 13 Pro",
     device_codename: "Garnet",
     device_brand: "xiaomi",
+    status: "inactive",
     device_build: [
       {
         version: "Android 14",
@@ -151,6 +158,7 @@ const deviceData = [
     device_name: "Poco F5 Pro / Redmi K60",
     device_codename: "Mondrian",
     device_brand: "xiaomi",
+    status: "inactive",
     device_build: [
       {
         version: "Android 14",
@@ -170,6 +178,7 @@ const deviceData = [
     device_name: "Poco F6 / Redmi Turbo 3",
     device_codename: "Peridot",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 14",
@@ -198,6 +207,7 @@ const deviceData = [
     device_name: "Xiaomi 11T Pro",
     device_codename: "Vili",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 14",
@@ -226,6 +236,7 @@ const deviceData = [
     device_name: "Redmi 10C / 10 Power",
     device_codename: "Fog/Wind/Rain",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 14",
@@ -254,6 +265,7 @@ const deviceData = [
     device_name: "Redmi 12 5G / Poco M6 Pro / Redmi Note 12R",
     device_codename: "Sky",
     device_brand: "xiaomi",
+    status: "inactive",
     device_build: [
       {
         version: "Android 14",
@@ -273,6 +285,7 @@ const deviceData = [
     device_name: "Redmi S2",
     device_codename: "Ysl",
     device_brand: "xiaomi",
+    status: "inactive",
     device_build: [
       {
         version: "Android 14",
@@ -292,6 +305,7 @@ const deviceData = [
     device_name: "Redmi Note 7",
     device_codename: "Lavender",
     device_brand: "xiaomi",
+    status: "inactive",
     device_build: [
       {
         version: "Android 14",
@@ -311,6 +325,7 @@ const deviceData = [
     device_name: "Redmi Note 8/8T",
     device_codename: "Ginkgo",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 14",
@@ -339,6 +354,7 @@ const deviceData = [
     device_name: "Redmi Note 10",
     device_codename: "Sunny",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 14",
@@ -367,6 +383,7 @@ const deviceData = [
     device_name: "Redmi Note 10 Pro",
     device_codename: "Sweet",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 14",
@@ -395,6 +412,7 @@ const deviceData = [
     device_name: "Mi8937",
     device_codename: "Mi8937",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 15",
@@ -414,6 +432,7 @@ const deviceData = [
     device_name: "Pocophone F1",
     device_codename: "Beryllium",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 14",
@@ -442,6 +461,7 @@ const deviceData = [
     device_name: "Itel RS4",
     device_codename: "S666LN",
     device_brand: "itel",
+    status: "active",
     device_build: [
       {
         version: "Android 15",
@@ -461,6 +481,7 @@ const deviceData = [
     device_name: "Redmi Note 12 Pro",
     device_codename: "sweet2",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 15",
@@ -480,6 +501,7 @@ const deviceData = [
     device_name: "Mi 11X Pro",
     device_codename: "Haydn",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 15",
@@ -499,6 +521,7 @@ const deviceData = [
     device_name: "Poco F5 / Redmi Note 12 Turbo",
     device_codename: "Marble",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 15",
@@ -518,6 +541,7 @@ const deviceData = [
     device_name: "Moto g54 5G",
     device_codename: "Cancunf",
     device_brand: "motorola",
+    status: "active",
     device_build: [
       {
         version: "Android 15",
@@ -537,6 +561,7 @@ const deviceData = [
     device_name: "Redmi 5 Plus",
     device_codename: "Vince",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 15",
@@ -556,6 +581,7 @@ const deviceData = [
     device_name: "Redmi Note 9 Pro 5G / Mi 10i / Mi 10T Lite",
     device_codename: "Gauguin",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 15",
@@ -575,6 +601,7 @@ const deviceData = [
     device_name: "Redmi Note 4 / 4X",
     device_codename: "Mido",
     device_brand: "xiaomi",
+    status: "active",
     device_build: [
       {
         version: "Android 15",
