@@ -501,7 +501,7 @@ const deviceData = [
     device_name: "Mi 11X Pro",
     device_codename: "Haydn",
     device_brand: "xiaomi",
-    status: "active",
+    status: "inactive",
     device_build: [
       {
         version: "Android 15",
