@@ -464,6 +464,15 @@ const deviceData = [
     status: "active",
     device_build: [
       {
+        version: "Android 14",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/beryllium.md",
+        download_links: {
+          gapps: "https://sourceforge.net/projects/orionos/files/A14/S666LN",
+          vanilla: null,
+        },
+        maintainer_name: "⁡⁠HEED",
+      },
+      {
         version: "Android 15",
         device_changelog: "https://raw.githubusercontent.com/OrionOS-Project/orion_ota/vic/changelogs/S666LN.txt",
         download_links: {
