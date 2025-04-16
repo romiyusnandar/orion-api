@@ -465,7 +465,7 @@ const deviceData = [
     device_build: [
       {
         version: "Android 14",
-        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/beryllium.md",
+        device_changelog: "https://raw.githubusercontent.com/OrionOS-prjkt/android_vendor_OrionOTA/14.0/changelogs/S666LN.md",
         download_links: {
           gapps: "https://sourceforge.net/projects/orionos/files/A14/S666LN",
           vanilla: null,
